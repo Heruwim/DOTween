@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+
 
 public class MoveTo : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        transform.DOMove(new Vector3(0, 5, 0), 3).From();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
