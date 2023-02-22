@@ -6,7 +6,7 @@ public class MoveTo : MonoBehaviour
 {
     private void Start()
     {
-        transform.DOMove(new Vector3(0, 5, 0), 3).From();
+        transform.DOMove(new Vector3(0, 5, 0), 3).SetDelay(2);
     }
 
     
